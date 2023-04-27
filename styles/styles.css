@@ -1,0 +1,53 @@
+body{
+    background-color: aqua;
+}
+.sec1 button{
+    position: relative;
+    width: 10rem;
+    height: 3rem;
+}
+.secb2{
+    position: relative;
+    top:35rem;
+    left: 5rem;
+}
+.sec2 p{
+    position: relative;
+    border: solid;
+    height: 4rem;
+    width: 4rem;
+    text-align: center;
+    font-size: 4rem;
+    background-color: antiquewhite;
+    left: 23rem;
+}
+.sec3 p{
+    position: relative;
+    font-size: 2rem;
+    font-style: bold, italic ;
+    left: 18rem;
+}
+.sec4 p{
+    position: relative;
+    font-size: 1.5rem;
+    left: 30rem;
+    top: 7rem;
+}
+.sec5 input{
+    position: relative;
+    height: 5rem;
+    width:5rem;
+    left: 7rem;
+    top: 2rem;
+}
+.sec6 p{
+    position: relative;
+    font-size: 1.5rem;
+    left: 30rem;
+}
+.sec7 p{
+    position: relative;
+    bottom: 10rem;
+    left: 26rem;
+    font-size: 1.75rem;
+}
