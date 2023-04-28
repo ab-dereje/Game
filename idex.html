@@ -6,35 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
     <title>Game</title>
+    
+    
 </head>
 <body>
     <div class="container">
-        <section class="sec1">
-            <div class="secb1">
-                <button class="but-refresh">New Game</button>
-            </div>
-            <div class="secb2">
-                <button class="but-check">Check</button>
-            </div>
-        </section>
+        <button class="secb1" id="but-newGame">New Game</button>
+        <button class="secb2" id="but-check">Check</button>
         <section class="sec2">
-            <p>?<p1>
+            <p id="sec2">?<p1>
         </section>
         <section class="sec3">
             <p>Guess My Number</p>
         </section>
         <section class="sec4">
-            <p>Score :</p>
+            <p >Score : <scan id="sec4">20</scan></p>
         </section>
         <section class="sec5">
-            <input type="text">
+            <input id="sec5" type="text">
         </section>
         <section class="sec6">
-            <p>Highest Score :</p>
+            <p >Highest Score : <span id="sec6">0</span></p>
         </section>
         <section class="sec7">
-            <p>Start Guessing...</p>
+            <p id="sec7">Start Guessing...</p>
         </section>
+        <!-- <section class="box1">
+            <input type="text">
+        </section>
+        <section class="box2">
+            <input type="text">
+        </section> -->
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

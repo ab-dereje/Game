@@ -1,15 +1,18 @@
 body{
     background-color: aqua;
 }
-.sec1 button{
+.secb1{
     position: relative;
     width: 10rem;
     height: 3rem;
 }
+
 .secb2{
     position: relative;
     top:35rem;
-    left: 5rem;
+    right:5rem;
+    width: 10rem;
+    height: 3rem;
 }
 .sec2 p{
     position: relative;
@@ -44,10 +47,25 @@ body{
     position: relative;
     font-size: 1.5rem;
     left: 30rem;
+    top: 1.2rem;
 }
 .sec7 p{
     position: relative;
     bottom: 10rem;
     left: 26rem;
     font-size: 1.75rem;
+}
+.box1 input{
+    position: relative;
+    height: 3rem;
+    width: 3rem;
+    left: 35rem;
+    bottom: 11rem;
+}
+.box2 input{
+    position: relative;
+    height: 3rem;
+    width: 3rem;
+    left: 40rem;
+    bottom: 10rem;
 }
