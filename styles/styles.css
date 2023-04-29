@@ -5,6 +5,8 @@ body{
     position: relative;
     width: 10rem;
     height: 3rem;
+    border-radius: 20%;
+    font-size: 1.3rem;
 }
 
 .secb2{
@@ -13,6 +15,9 @@ body{
     right:5rem;
     width: 10rem;
     height: 3rem;
+    border-radius: 10%;
+    font-size: 1.25rem;
+    background-color:blanchedalmond;
 }
 .sec2 p{
     position: relative;
@@ -30,6 +35,10 @@ body{
     font-style: bold, italic ;
     left: 18rem;
 }
+.sec3 span{
+    position: relative;
+    left: 5rem;
+}
 .sec4 p{
     position: relative;
     font-size: 1.5rem;
@@ -42,6 +51,7 @@ body{
     width:5rem;
     left: 7rem;
     top: 2rem;
+    font-size: 2rem;
 }
 .sec6 p{
     position: relative;

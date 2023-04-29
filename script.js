@@ -10,7 +10,8 @@ const highScore = document.getElementById("sec6")
 const checkBtn = document.getElementById("but-check");
 const newBtn =document.querySelector(".secb1");
 
-const number = Math.trunc(Math.random()*20)+1;
+
+let number = Math.trunc(Math.random()*20)+1;
 let s=20;
 let h=0;
 
@@ -22,15 +23,13 @@ checkBtn.addEventListener('click',function(){
     if(num==number){
         correctText.textContent="You are correct";
         score.textContent=s;
-        if(highScore.value==null){
-            highScore.textContent=h;
-        }
-        else if(h<s){
+    
+        if(h<s){
             h=s;
             highScore.textContent=h;
         }
         correctNumber.textContent=number;
-
+        document.querySelector("body").style.backgroundColor='#60B347';
 
     }
     else if(num<number){
@@ -45,3 +44,13 @@ checkBtn.addEventListener('click',function(){
         score.textContent=s;
     }
 });
+newBtn.addEventListener('click',function(){
+    number = Math.trunc(Math.random()*20)+1;
+    console.log(number);
+    s=20;
+    score.textContent=s;
+    correctText.textContent="Start Guessing...";
+    correctNumber.textContent="?";
+    document.querySelector("body").style.backgroundColor='aqua';
+    inp.value='';
+})
